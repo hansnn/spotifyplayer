@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/primaryBlue"
+    tools:context="com.hansn.spotifyplayer.activity.MainActivity">
+
+    <EditText
+        android:id="@+id/url_input"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/input_hint"
+        android:inputType="textUri"
+        android:text="spotify:track:7qiZfU4dY1lWllzX7mPBI3"
+        android:imeOptions="actionGo" />
+
+
+
+</android.support.constraint.ConstraintLayout>
